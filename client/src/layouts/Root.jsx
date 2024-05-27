@@ -8,6 +8,7 @@ export default function Root() {
 		<>
 			<NavBar />
 			<Container sx={{ marginTop: "30px" }}>
+				<div class="container mx-auto">test</div>
 				<Box>
 					<Outlet />
 				</Box>
