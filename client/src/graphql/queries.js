@@ -40,3 +40,13 @@ export const GET_ALL_PORTFOLIOS = gql`
 		}
 	}
 `;
+
+export const GET_ALL_TEAMS = gql`
+	query getAllTeamMembers {
+		teams {
+			firstname
+			lastname
+			id
+		}
+	}
+`;
